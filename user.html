@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     .ab,
+      textarea,
+      select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        border: 1px solid #4C8B75
+      }
+
+      form {
+        padding: 25px 20px 20px 20px;
+        background-color:#0B0F10;
+        box-shadow: 0 2px 10px rgb(0, 0, 0, 0.1);
+        border-radius: 5px;color: aliceblue;
+      }
+
+      legend {
+        font-weight: bold;
+      }
+
+                    
+
+      fieldset {
+        padding: 15px 22px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        padding: 100px 200px;
+        background-color: #172a46
+      }
+      
+
+      button {
+        padding: 10px 15px;
+        background-color: #2fc2a9;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+
+      button:hover {
+        background-color: #179681;
+      }
+    </style>
+  </head>
+  <body>
+   
+
+<form>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label>
+          Full Name:
+          <input class="ab" type="text" name="first name" required placeholder="First Name"/>
+        </label>
+
+        <label>
+          Email:
+          <input class="ab" type="email" name="email" placeholder="Email" required=/>
+        </label>
+
+        <label>
+          Phone No: <input class="ab" type="number" name="Phone No" minlength="11" maxlength="11" placeholder="+92"
+          required>
+        </label>
+
+        <label>
+          Message:
+          <textarea name="textarea" rows="4" id="textarea" required>
+ Hi</textarea
+          >
+        </label>
+      </fieldset>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+      </form>
